@@ -17,16 +17,16 @@
 
   --Purple: #7678ed;
   --Purple-alpha: #3884ff99;
-  --Blue-Principal: #3c22bf;
-  --Blue-Secundari: #ff00e4;
+  --Blue-Principal: #f25f4c;
+  --Blue-Secundari: #e53170;
   --Blue-NCS: #0f89bd;
   --Gray-Spanish: #efefef;
   --Gray-Back: #d6d6ff26;
-  --Red-Imperial: #ffc4e1;
+  --Red-Imperial: #e53170;
   --red-error: #7a1e1e;
-  --Mellow-Apricot: #c8f2ef;
+  --Mellow-Apricot: #ff8906;
   --Mellow-Apricot2: #1e1b18;
-  --Prusian-Blue: #3a86ff;
+  --Prusian-Blue: #0f0e17;
   --success_color: #0d501d;
   --French-sky-blue: #94b3fd;
   --Gray-Crayola: #343b3a;
@@ -35,6 +35,8 @@
   --black-alpha-color: #000000bf;
   --white: white;
   --white-alpha-color: #ffffff80;
+  --btn-color: #ff8906;
+  --btn-text: #fffffe;
   --max-width: 78em;
   --max-width2: 39em;
   --header-height: 4em;
@@ -93,7 +95,7 @@ h6 {
 }
 
 a {
-  color: var(--Red-Imperial);
+  color: var(--white);
 }
 
 a:hover {
@@ -361,7 +363,7 @@ a:hover {
   }
   .menu a:hover {
     background-color: transparent;
-    color: #ff00e4;
+    color: var(--Blue-Secundari);
     border-radius: 0.25em;
     opacity: 1;
   }
@@ -456,8 +458,8 @@ progress::-moz-progress-bar {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: var(--white);
-  background-color: var(--Prusian-Blue);
+  color: var(--btn-text);
+  background-color: var(--btn-color);
 }
 .c-w {
   color: var(--white);
